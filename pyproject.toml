@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "lalala"
+name = "contender-sim"
 version = "0.1.0"
 description = ""
 authors = ["Nikola Rahman <nikola.rahman.89@gmail.com>"]
