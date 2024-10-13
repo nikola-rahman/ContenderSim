@@ -1,0 +1,128 @@
+defaults:
+  n_requests: 10000
+  n_contenders: 100
+
+experiments:
+  - name: e1
+    scorer:
+      strategy: "most_fair"
+    selector:
+      strategy: "greedy"
+
+  - name: e2
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "greedy"
+
+  - name: e3
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 0.1
+
+  - name: e4
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 0.2
+
+  - name: e5
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 0.3
+
+  - name: e6
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 0.4
+
+  - name: e7
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 0.5
+
+  - name: e8
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 0.6
+
+  - name: e9
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 0.7
+
+  - name: e10
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 0.8
+
+  - name: e11
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 0.9
+
+  - name: e12
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 1.0
+
+  - name: e13
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 1.1
+
+  - name: e14
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 1.2
+
+  - name: e15
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 1.3
+
+  - name: e16
+    scorer:
+      strategy: "quality_only"
+    selector:
+      strategy: "probabilistic"
+      kwargs:
+        temperature: 1.4
